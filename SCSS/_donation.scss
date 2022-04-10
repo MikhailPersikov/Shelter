@@ -1,0 +1,56 @@
+.container5 {
+  padding: 91px  182px 110px 182px;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 462px;
+  background-color:#F6F6F6;
+}
+
+.donation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 915px;
+  height: 282px;
+}
+
+.help__logo {
+  width: 505px;
+  height: 286px;
+}
+
+.help__content {
+  
+  h2{
+    text-align: right;
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    color: $textColorBlack-Upper;
+  }
+  h3 {
+    color: $textColorBlack-Upper; 
+  }
+  p{
+    line-height: 18px;
+    color:  #B2B2B2;
+  }
+  width: 380px;
+  height: 282px;
+}
+
+.credit-cart {
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 349px;
+  height: 43px;
+  display: flex;
+  border-radius:9px;
+  background-color: #F1CDB3;
+  color: #545454;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.credit-cart__img {
+  margin-right: 15px;
+}

@@ -1,0 +1,44 @@
+//About block
+.container2{
+  // @include container (0 auto, 588);
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 588px;
+  background-color: rgb(255, 252, 252);
+}
+
+.about {
+  display: flex;
+  // justify-content: space-between;
+  padding: 0 40px;
+  margin: 0 -10px;
+}
+
+.item {
+  flex: 1 1 auto;
+  margin: 0 120px;
+}
+
+.about__pents {
+  margin-top: 80px;
+  margin-left: 135px;
+  margin-bottom: 100px;
+}
+
+.about__content {
+  margin-top: 94px;
+  h2{
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-size: 35px;
+    color: $textColorBlack-Upper;
+  }
+  p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: $textColorBlack;
+  }
+  width: 430px;
+  height: 380px;
+}

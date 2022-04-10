@@ -1,0 +1,96 @@
+.container1 {
+  margin: 0 auto;
+  height: 908px;
+  background-image: url('../IMG/start-screen-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+//Not only block
+
+.notOnly {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.menu__list {
+  display:flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+// All but the first
+.menu__item {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 30px;
+}
+
+.menu__item:first-child {
+  margin-left: 0;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: $textColorGrey;
+  &:hover {
+  border-bottom: 3px solid #F1CDB3;
+  }
+}
+
+.startScreenContent {
+  display: flex;
+  margin-top: 60px;
+}
+
+.start-text {
+  margin-top: 42px;
+  color: $textColorGrey;
+}
+
+.content__wrapper {
+  margin-top: 170px;
+  width: 460px;
+  height: 322px;
+}
+
+.content__wrapper { 
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 44px;
+  color: $textColorWhite;
+}
+
+.startText {
+  font-size: 15px;
+  line-height: 24px;
+  color: $textColorGrey;
+}
+
+.make-friend-btn__wrapper{
+  margin-top: 42px;
+}
+
+.make-friend-btn{
+  width: 207px;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  background: #F1CDB3;
+}
+
+
+

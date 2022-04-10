@@ -1,0 +1,11 @@
+@mixin container ($position, $hight) {
+  margin: $position;
+  height: $hight;
+  // width: $width;
+}
+
+// font-weight: 400;
+// margin-bottom: 60px;
+// text-align: center;
+// font-size: 35px;
+// color: $textColorBlack-Upper;
